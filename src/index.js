@@ -11,21 +11,20 @@ import Projects from "./containers/Projects";
 import GithubProfile from "./containers/GithubProfile";
 import Feedbacks from "./containers/Feedbacks";
 
-import "assets/vendor/nucleo/css/nucleo.css";
-import "assets/vendor/font-awesome/css/font-awesome.min.css";
-import "assets/css/argon-design-system-react.css";
-
+import "./assets/vendor/nucleo/css/nucleo.css";
+import "./assets/vendor/font-awesome/css/font-awesome.min.css";
+import "./assets/css/argon-design-system-react.css";
 ReactDOM.render(
-	<>
-		<Navigation />
-		<Greetings />
-		<Skills />
-		<Proficiency />
-		<Education />
-		<Experience />
-		<Feedbacks />
-		<Projects />
-		<GithubProfile />
-	</>,
-	document.getElementById("root")
+  <React.StrictMode>
+    <Navigation />
+    <Greetings />
+    <Skills />
+    <Proficiency />
+    <Education />
+    <Experience />
+    <Feedbacks />
+    <Projects />
+    <GithubProfile />
+  </React.StrictMode>,
+  document.getElementById("root")
 );
