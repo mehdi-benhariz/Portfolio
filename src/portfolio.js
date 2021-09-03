@@ -8,8 +8,8 @@ export const greetings = {
   name: "Mehdi Ben Hariz",
   title: "Hi there, I'm Mehdi",
   description:
-    "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with   Reactjs / Nodejs  / Django /Laravel  and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-  resumeLink: "https://cv.hanzla.ga",
+    "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with Reactjs / Nodejs  / Django /Laravel  and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
+  resumeLink: "_Resume_eng-v1.pdf",
 };
 
 export const openSource = {
@@ -33,10 +33,10 @@ export const skillsSection = {
     emoji(
       "⚡ develop web and mobile solution with security and perfermance measurmenet"
     ),
-    //  emoji("⚡ "),
-    // emoji(
-    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    // ),
+    emoji(
+      "⚡ Write technical articles and create rich and pedagogic training materials"
+    ),
+    emoji("⚡ Learning ML in order to integrate AI solution "),
   ],
 
   softwareSkills: [
