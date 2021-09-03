@@ -1,8 +1,8 @@
 import emoji from "react-easy-emoji";
 
-import googlelogo from "./assets/img/icons/common/google.svg";
-import github from "./assets/img/icons/common/github.svg";
-import airbnb from "./assets/img/icons/common/airbnbLogo.png";
+import microsoft from "./assets/img/icons/common/microsoft.png";
+import cyberTrace from "./assets/img/icons/common/cyberTrace.png";
+import ARSII from "./assets/img/icons/common/arsii.png";
 
 export const greetings = {
   name: "Mehdi Ben Hariz",
@@ -27,15 +27,16 @@ export const socialLinks = {
 
 export const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "A software engineer passionate with solving real-world problem and building efficient solution",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ develop web and mobile solution with security and perfermance measurmenet"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    ),
+    //  emoji("⚡ "),
+    // emoji(
+    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    // ),
   ],
 
   softwareSkills: [
@@ -46,10 +47,6 @@ export const skillsSection = {
     {
       skillName: "css3",
       fontAwesomeClassname: "vscode-icons:file-type-css",
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "logos:sass",
     },
     {
       skillName: "JavaScript",
@@ -72,20 +69,24 @@ export const skillsSection = {
       fontAwesomeClassname: "logos:flutter",
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "vscode-icons:file-type-sql",
+      skillName: "mysql",
+      fontAwesomeClassname: "vscode-icons:file-type-mysql",
     },
     {
       skillName: "mongoDB",
       fontAwesomeClassname: "vscode-icons:file-type-mongo",
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "logos:aws",
+      skillName: "CPP",
+      fontAwesomeClassname: "logos:c-plusplus",
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "logos:firebase",
+      skillName: "linux",
+      fontAwesomeClassname: "logos:linux-tux",
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "logos:java",
     },
     {
       skillName: "python",
@@ -96,20 +97,28 @@ export const skillsSection = {
       fontAwesomeClassname: "logos:git-icon",
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "logos:docker-icon",
+      skillName: "laravel",
+      fontAwesomeClassname: "logos:laravel",
     },
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "logos:docker-icon",
+    // },
   ],
 };
 
 export const SkillBars = [
   {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "70", //Insert relative proficiency in percentage
+    Stack: "Frontend", //Insert stack or technology you have experience in
+    progressPercentage: "78", //Insert relative proficiency in percentage
   },
   {
     Stack: "Backend",
     progressPercentage: "90",
+  },
+  {
+    Stack: "Mobile",
+    progressPercentage: "76",
   },
   {
     Stack: "ML",
@@ -119,71 +128,72 @@ export const SkillBars = [
 
 export const educationInfo = [
   {
-    schoolName: "ISSATsousse University",
-    subHeader: "Master of Science in Computer Science",
-    duration: "September 2017 - April 2019",
-    desc: "Participated in the research of XXX and published 3 papers.",
-    descBullets: [
-      "Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    ],
+    schoolName: "ISSATsousse",
+    subHeader: "Integrated Preparatory Cycle",
+    duration: "September 2019 - June 2021",
+    desc: "Studied Subjects in Maths, Physics and Computer Science.",
+    descBullets: ["I was a Major of my promotion"],
   },
   {
-    schoolName: "Harvard",
-    subHeader: "Master of Science in Computer Science",
-    duration: "September 2017 - April 2019",
-    desc: "Participated in the research of XXX and published 3 papers.",
-    descBullets: [
-      "Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    ],
+    schoolName: "ISSATsousse",
+    subHeader: "Software Engineering degree",
+    duration: "September 2021 - Jully 2024",
+    desc: "Studied Software Engineering.",
+    descBullets: [],
   },
 ];
 
 export const experience = [
   {
-    role: "Software Engineer",
-    company: "Google",
-    companylogo: googlelogo,
-    date: "June 2018 – Present",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    descBullets: [
-      "Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    ],
+    role: "Mobile App Intern",
+    company: "ARSII",
+    companylogo: ARSII,
+    date: "Jully 2021 – September 2021",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    role: "Front-End Developer",
-    company: "Github",
-    companylogo: github,
-    date: "May 2017 – May 2018",
-    desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    role: "Head of Basic Web Department",
+    company: "Microsoft Issatso Club",
+    companylogo: microsoft,
+    date: "Mars 2020 – Present",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    role: "Software Engineer Intern",
-    company: "Airbnb",
-    companylogo: airbnb,
-    date: "Jan 2015 – Sep 2015",
+    role: "Dev Team Member",
+    company: "CyberTrace Club",
+    companylogo: cyberTrace,
+    date: "Jully 2021 – Present",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
 
 export const projects = [
   {
-    name: "lorem ipsum",
+    name: "Real Time chat app",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    link: "https://example.com",
+    link: "https://chat-app-mehdi.netlify.app/",
   },
   {
-    name: "lorem ipsum",
+    name: "Ecommerce plateform ",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     github: "https://github.com/1hanzla100",
   },
   {
-    name: "lorem ipsum",
+    name: "Smart City ",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    github: "https://github.com/1hanzla100",
-    link: "https://example.com",
+    github: "https://github.com/mehdi-benhariz/smart-city",
+  },
+  {
+    name: "meme generator",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    github: "https://github.com/mehdi-benhariz/meme-generator",
+    link: "https://meme-generator-mehdi.netlify.app/",
+  },
+  {
+    name: "covid tracker",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    github: "https://github.com/mehdi-benhariz/covid-tracker19",
+    link: "http://covid-tracker19.surge.sh/",
   },
 ];
 

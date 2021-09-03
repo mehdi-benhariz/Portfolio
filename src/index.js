@@ -9,7 +9,7 @@ import Education from "./containers/Education";
 import Experience from "./containers/Experience";
 import Projects from "./containers/Projects";
 import GithubProfile from "./containers/GithubProfile";
-import Feedbacks from "./containers/Feedbacks";
+//import Feedbacks from "./containers/Feedbacks";
 
 import "./assets/vendor/nucleo/css/nucleo.css";
 import "./assets/vendor/font-awesome/css/font-awesome.min.css";
@@ -22,9 +22,9 @@ ReactDOM.render(
     <Proficiency />
     <Education />
     <Experience />
-    <Feedbacks />
     <Projects />
     <GithubProfile />
   </React.StrictMode>,
   document.getElementById("root")
 );
+// <Feedbacks />
