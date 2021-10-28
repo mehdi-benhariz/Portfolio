@@ -117,7 +117,7 @@ export const SkillBars = [
   },
   {
     Stack: "Mobile",
-    progressPercentage: "76",
+    progressPercentage: "70",
   },
 ];
 
