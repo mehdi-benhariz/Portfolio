@@ -36,7 +36,6 @@ export const skillsSection = {
     emoji(
       "⚡ Write technical articles and create rich and pedagogic training materials"
     ),
-    emoji("⚡ Learning ML in order to integrate AI solution "),
   ],
 
   softwareSkills: [
@@ -119,10 +118,6 @@ export const SkillBars = [
   {
     Stack: "Mobile",
     progressPercentage: "76",
-  },
-  {
-    Stack: "ML",
-    progressPercentage: "56",
   },
 ];
 

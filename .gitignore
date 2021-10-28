@@ -1,5 +1,7 @@
 .idea/
 .vscode/
+.netlify/
+.github/
 node_modules/
 build
 .DS_Store
