@@ -1,9 +1,9 @@
 @font-face {
-    font-family: Augestina;
-    src: url(../assets/fonts/Agustina.otf);
+  font-family: Augestina;
+  src: url(../assets/fonts/Agustina.otf);
 }
 
-#nav-title{
-    font-family: Augestina;
-    text-transform: capitalize;
+#nav-title {
+  font-family: Augestina;
+  text-transform: capitalize;
 }

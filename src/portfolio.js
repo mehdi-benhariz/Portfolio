@@ -8,7 +8,7 @@ export const greetings = {
   name: "Mehdi Ben Hariz",
   title: "Hi there, I'm Mehdi",
   description:
-    "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with Reactjs / Nodejs  / Django /Laravel  and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
+    "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with Reactjs / Nodejs  / Django  and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
   resumeLink: "_Resume_eng-v1.pdf",
 };
 
@@ -68,6 +68,14 @@ export const skillsSection = {
       fontAwesomeClassname: "logos:flutter",
     },
     {
+      skillName: "django",
+      fontAwesomeClassname: "logos:django",
+    },
+    {
+      skillName: "laravel",
+      fontAwesomeClassname: "logos:laravel",
+    },
+    {
       skillName: "mysql",
       fontAwesomeClassname: "vscode-icons:file-type-mysql",
     },
@@ -78,10 +86,6 @@ export const skillsSection = {
     {
       skillName: "CPP",
       fontAwesomeClassname: "logos:c-plusplus",
-    },
-    {
-      skillName: "linux",
-      fontAwesomeClassname: "logos:linux-tux",
     },
     {
       skillName: "java",
@@ -96,9 +100,10 @@ export const skillsSection = {
       fontAwesomeClassname: "logos:git-icon",
     },
     {
-      skillName: "laravel",
-      fontAwesomeClassname: "logos:laravel",
+      skillName: "linux",
+      fontAwesomeClassname: "logos:linux-tux",
     },
+
     // {
     //   skillName: "docker",
     //   fontAwesomeClassname: "logos:docker-icon",
@@ -144,21 +149,21 @@ export const experience = [
     company: "ARSII",
     companylogo: ARSII,
     date: "Jully 2021 – September 2021",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    desc: "i have participate in the conception ,prototyping ,implimentation and deployment of a cross-plateform moblie app. ",
   },
   {
-    role: "Head of Basic Web Department",
+    role: "Board Member",
     company: "Microsoft Issatso Club",
     companylogo: microsoft,
     date: "Mars 2020 – Present",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    desc: "I have taken different roles : -sponsorship manager -Head of basic web department -Vice President",
   },
   {
     role: "Dev Team Member",
     company: "CyberTrace Club",
     companylogo: cyberTrace,
     date: "Jully 2021 – Present",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    desc: `I have taken different roles :\n - dev team member `,
   },
 ];
 
@@ -171,7 +176,7 @@ export const projects = [
   {
     name: "Ecommerce plateform ",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    github: "https://github.com/1hanzla100",
+    github: "https://github.com/mehdi-benhariz",
   },
   {
     name: "Smart City ",

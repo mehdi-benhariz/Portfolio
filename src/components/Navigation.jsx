@@ -76,7 +76,7 @@ const Navigation = () => {
                   href={socialLinks.facebook}
                   target="_blank"
                 >
-                  <i className="fa fa-facebook-square" />
+                  <i className="fa fa-facebook-square fa-2x" />
                   <span className="nav-link-inner--text d-lg-none ml-2">
                     Facebook
                   </span>
@@ -89,7 +89,7 @@ const Navigation = () => {
                   href={socialLinks.github}
                   target="_blank"
                 >
-                  <i className="fa fa-github" />
+                  <i className="fa fa-github fa-2x" />
                   <span className="nav-link-inner--text d-lg-none ml-2">
                     Github
                   </span>
@@ -101,9 +101,21 @@ const Navigation = () => {
                   href={socialLinks.linkedin}
                   target="_blank"
                 >
-                  <i className="fa fa-linkedin" />
+                  <i className="fa fa-linkedin fa-2x" />
                   <span className="nav-link-inner--text d-lg-none ml-2">
                     Linkedin
+                  </span>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  className="nav-link-icon"
+                  href={socialLinks.blogger}
+                  target="_blank"
+                >
+                  <i className="fa fa-pencil fa-2x" />
+                  <span className="nav-link-inner--text d-lg-none ml-2">
+                    Blogger
                   </span>
                 </NavLink>
               </NavItem>
