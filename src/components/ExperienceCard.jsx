@@ -14,7 +14,7 @@ import ColorThief from "colorthief";
 
 import { Fade } from "react-reveal";
 
-const ExperienceCard = ({ data }) => {
+const ExperienceCard = ({ data, fn, isFull = false }) => {
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
 
@@ -27,7 +27,7 @@ const ExperienceCard = ({ data }) => {
     typeof values === "undefined" ? null : "rgb(" + values.join(", ") + ")";
 
   return (
-    <Col lg="4">
+    <Col lg="4" onClick={() => (isFull ? null : fn(data))}>
       <Fade left duration={1000} distance="40px">
         <Card
           style={{ flex: 1 }}
@@ -48,7 +48,7 @@ const ExperienceCard = ({ data }) => {
             <CardTitle tag="h5">{data.role}</CardTitle>
             <CardSubtitle>{data.date}</CardSubtitle>
             <CardText className="description my-3 text-left">
-              {data.desc.substring(0, 100) + " ..."}
+              {data.desc.substring(0, isFull ? 10000 : 100) + " ..."}
               <ul>
                 {data.descBullets
                   ? data.descBullets.map((desc) => {
