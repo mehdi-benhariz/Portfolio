@@ -3,13 +3,14 @@ import emoji from "react-easy-emoji";
 import microsoft from "./assets/img/icons/common/microsoft.png";
 import cyberTrace from "./assets/img/icons/common/cyberTrace.png";
 import ARSII from "./assets/img/icons/common/arsii.png";
+import capgemini from "./assets/img/icons/common/capgemini.png";
 
 export const greetings = {
   name: "Mehdi Ben Hariz",
   title: "Hi there, I'm Mehdi",
   description:
     "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with Reactjs / Nodejs  / Django  and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-  resumeLink: "_Resume_eng-v1.pdf",
+  resumeLink: "_Resume_eng.pdf",
 };
 
 export const openSource = {
@@ -32,6 +33,9 @@ export const skillsSection = {
   skills: [
     emoji(
       "⚡ develop web and mobile solution with security and perfermance measurmenet"
+    ),
+    emoji(
+      "⚡ lead the development of a product from the scrach to the production"
     ),
     emoji(
       "⚡ Write technical articles and create rich and pedagogic training materials"
@@ -60,20 +64,24 @@ export const skillsSection = {
       fontAwesomeClassname: "vscode-icons:file-type-reactjs",
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "logos:nodejs-icon",
-    },
-    {
       skillName: "flutter",
       fontAwesomeClassname: "logos:flutter",
     },
     {
-      skillName: "django",
-      fontAwesomeClassname: "logos:django",
+      skillName: "nodejs",
+      fontAwesomeClassname: "logos:nodejs-icon",
     },
     {
-      skillName: "laravel",
-      fontAwesomeClassname: "logos:laravel",
+      skillName: "express",
+      fontAwesomeClassname: "logos:express",
+    },
+    {
+      skillName: "dotnet",
+      fontAwesomeClassname: "logos:dotnet",
+    },
+    {
+      skillName: "django",
+      fontAwesomeClassname: "logos:django",
     },
     {
       skillName: "mysql",
@@ -82,6 +90,10 @@ export const skillsSection = {
     {
       skillName: "mongoDB",
       fontAwesomeClassname: "vscode-icons:file-type-mongo",
+    },
+    {
+      skillName: "C",
+      fontAwesomeClassname: "vscode-icons:c",
     },
     {
       skillName: "CPP",
@@ -103,11 +115,10 @@ export const skillsSection = {
       skillName: "linux",
       fontAwesomeClassname: "logos:linux-tux",
     },
-
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "logos:docker-icon",
-    // },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "logos:docker-icon",
+    },
   ],
 };
 
@@ -145,6 +156,13 @@ export const educationInfo = [
 
 export const experience = [
   {
+    role: "Consultant Assistant",
+    company: "Capgemini",
+    companylogo: capgemini,
+    date: "February 2022 - May 2022",
+    desc: "I was part of chineese architect community program. I have been learning and testing devops tools under the supervising of company architect .",
+  },
+  {
     role: "Mobile App Intern",
     company: "ARSII",
     companylogo: ARSII,
@@ -152,18 +170,18 @@ export const experience = [
     desc: "i have participate in the conception ,prototyping ,implimentation and deployment of a cross-plateform moblie app. ",
   },
   {
-    role: "Board Member",
+    role: "President",
     company: "Microsoft Issatso Club",
     companylogo: microsoft,
-    date: "Mars 2020 – Present",
-    desc: "I have taken different roles : -sponsorship manager -Head of basic web department -Vice President",
+    date: "December 2019 – Present",
+    desc: "I have taken different roles and responsabilities envolving the club. I have been a member of the club since 2019.",
   },
   {
     role: "Dev Team Member",
     company: "CyberTrace Club",
     companylogo: cyberTrace,
     date: "Jully 2021 – Present",
-    desc: `I have taken different roles :\n - dev team member `,
+    desc: "I have participated in the development of a web application for the club. I have taken the role of a backend developer.",
   },
 ];
 
