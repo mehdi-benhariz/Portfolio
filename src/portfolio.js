@@ -93,7 +93,7 @@ export const skillsSection = {
     },
     {
       skillName: "C",
-      fontAwesomeClassname: "vscode-icons:c",
+      fontAwesomeClassname: "logos:c",
     },
     {
       skillName: "CPP",
