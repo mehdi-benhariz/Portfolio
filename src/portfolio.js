@@ -4,12 +4,12 @@ import microsoft from "./assets/img/icons/common/microsoft.png";
 import cyberTrace from "./assets/img/icons/common/cyberTrace.png";
 import ARSII from "./assets/img/icons/common/arsii.png";
 import capgemini from "./assets/img/icons/common/capgemini.png";
-
+import proxym from "./assets/img/icons/common/proxym.png";
 export const greetings = {
   name: "Mehdi Ben Hariz",
   title: "Hi there, I'm Mehdi",
   description:
-    "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with Reactjs / Nodejs  / Django  and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
+    "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with Reactjs / Nodejs  / Dotnet  and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
   resumeLink: "_Resume_eng.pdf",
 };
 
@@ -41,7 +41,7 @@ export const skillsSection = {
       "⚡ Write technical articles and create rich and pedagogic training materials"
     ),
   ],
-
+  //icon source is ,fontawesome
   softwareSkills: [
     {
       skillName: "html-5",
@@ -155,6 +155,13 @@ export const educationInfo = [
 ];
 
 export const experience = [
+  {
+    role: "Web Dev Intern",
+    company: "Proxym-group",
+    companylogo: proxym,
+    date: "june 2022 - july 2022",
+    desc: "I have implemented the concept of maker checker using a web app . The project is designed for financial services using dotnet and react .",
+  },
   {
     role: "Consultant Assistant",
     company: "Capgemini",
