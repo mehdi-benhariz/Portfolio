@@ -152,6 +152,13 @@ export const educationInfo = [
     desc: "Studied Software Engineering.",
     descBullets: [],
   },
+  {
+    schoolName: "UW-Stout - USA",
+    subHeader: "Computer Science degree",
+    duration: "September 2022 - Mai 2023",
+    desc: "1 year as an Exchange Student as part of international Scholarship program.",
+    descBullets: ["Chosen with 32 other students from 10k candidats"],
+  },
 ];
 
 export const experience = [
