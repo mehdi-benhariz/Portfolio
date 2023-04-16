@@ -10,7 +10,7 @@ export const greetings = {
   title: "Hi there, I'm Mehdi",
   description:
     "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with Reactjs / Nodejs  / Dotnet  and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-  resumeLink: "_Resume_eng.pdf",
+  resumeLink: "_Resume_Mehdi_Ben_Hariz.pdf",
 };
 
 export const openSource = {
@@ -31,15 +31,18 @@ export const skillsSection = {
   subTitle:
     "A software engineer passionate with solving real-world problem and building efficient solution",
   skills: [
-    emoji(
-      "⚡ develop web and mobile solution with security and perfermance measurmenet"
-    ),
-    emoji(
-      "⚡ lead the development of a product from the scrach to the production"
-    ),
-    emoji(
-      "⚡ Write technical articles and create rich and pedagogic training materials"
-    ),
+    // emoji(
+    //   "⚡ develop web and mobile solution with security and perfermance measurmenet"
+    // ),
+    // emoji(
+    //   "⚡ lead the development of a product from the scrach to the production"
+    // ),
+    // emoji(
+    //   "⚡ Write technical articles and create rich and pedagogic training materials"
+    // ),
+      "⚡ develop web and mobile solution with security and perfermance measurmenet",
+      "⚡ lead the development of a product from the scrach to the production",
+      "⚡ Write technical articles and create rich and pedagogic training materials",
   ],
   //icon source is ,fontawesome
   softwareSkills: [
@@ -124,17 +127,22 @@ export const skillsSection = {
 
 export const SkillBars = [
   {
-    Stack: "Frontend", //Insert stack or technology you have experience in
-    progressPercentage: "78", //Insert relative proficiency in percentage
-  },
-  {
     Stack: "Backend",
     progressPercentage: "90",
   },
   {
+    Stack: "Frontend", //Insert stack or technology you have experience in
+    progressPercentage: "78", //Insert relative proficiency in percentage
+  }
+  ,
+  {
     Stack: "Mobile",
-    progressPercentage: "70",
+    progressPercentage: "50",
   },
+  {
+    Stack: "DevOps",
+    progressPercentage: "45",
+  }
 ];
 
 export const educationInfo = [
