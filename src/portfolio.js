@@ -1,4 +1,4 @@
-import emoji from "react-easy-emoji";
+// import emoji from "react-easy-emoji";
 
 import microsoft from "./assets/img/icons/common/microsoft.png";
 import cyberTrace from "./assets/img/icons/common/cyberTrace.png";
