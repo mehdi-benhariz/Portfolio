@@ -9,7 +9,7 @@ const EdutionCard = ({ education }) => {
 			<Card className="card-lift--hover shadow mt-4">
 				<CardBody>
 					<div className="d-flex px-3">
-						<div className="pl-4">
+						<div className="pl-4 py-4">
 							<h5 className="text-info">
 								{education.schoolName}
 							</h5>

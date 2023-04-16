@@ -30,7 +30,7 @@ const ExperienceCard = ({ data, fn, isFull = false }) => {
     <Col lg="4" onClick={() => (isFull ? null : fn(data))}>
       <Fade left duration={1000} distance="40px">
         <Card
-          style={{ flex: 1 }}
+          style={{ flex:1 , margin: "10px 0"}}
           className="shadow-lg--hover shadow border-0 text-center rounded"
         >
           <CardHeader style={{ background: rgb(colorArrays) }}>
