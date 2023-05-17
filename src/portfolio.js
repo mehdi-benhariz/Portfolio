@@ -9,7 +9,7 @@ export const greetings = {
   name: "Mehdi Ben Hariz",
   title: "Hi there, I'm Mehdi",
   description:
-    "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with Reactjs / Nodejs  / Dotnet  and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
+    "As a dedicated and detail-oriented software engineer , I thrive on challenges and excel in delivering results. Whether you need a complex web application or an elegant DevOps solution, I'm confident that I can deliver with precision and expertise.",
   resumeLink: "_Resume_Mehdi_Ben_Hariz.pdf",
 };
 
