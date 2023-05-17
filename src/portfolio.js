@@ -5,6 +5,12 @@ import cyberTrace from "./assets/img/icons/common/cyberTrace.png";
 import ARSII from "./assets/img/icons/common/arsii.png";
 import capgemini from "./assets/img/icons/common/capgemini.png";
 import proxym from "./assets/img/icons/common/proxym.png";
+import uwstout from "./assets/img/icons/common/uwstout.png";
+
+//import project previews
+import memeGenerator from "./assets/img/previews/meme_generator_preview.png" 
+import booky from "./assets/img/previews/booky_preview.png"
+
 export const greetings = {
   name: "Mehdi Ben Hariz",
   title: "Hi there, I'm Mehdi",
@@ -151,7 +157,7 @@ export const educationInfo = [
     subHeader: "Integrated Preparatory Cycle",
     duration: "September 2019 - June 2021",
     desc: "Studied Subjects in Maths, Physics and Computer Science.",
-    descBullets: ["I was a Major of my promotion"],
+    descBullets: ["I was a Valdectorian of my promotion"],
   },
   {
     schoolName: "ISSATsousse",
@@ -195,57 +201,65 @@ export const experience = [
     role: "President",
     company: "Microsoft Issatso Club",
     companylogo: microsoft,
-    date: "December 2019 – Present",
+    date: "December 2019 – April 2022",
     desc: "I have taken different roles and responsabilities envolving the club. I have been a member of the club since 2019.",
   },
   {
     role: "Dev Team Member",
     company: "CyberTrace Club",
     companylogo: cyberTrace,
-    date: "Jully 2021 – Present",
+    date: "Jully 2021 – April 2022",
     desc: "I have participated in the development of a web application for the club. I have taken the role of a backend developer.",
+  },
+  {
+    role: "Rsearch Intern",
+    company: "UW-STOUT",
+    companylogo: uwstout,
+    date: "February 2023 – April 2023",
+    desc: "I worked with my supervisor on NoSQL databases;making comparaison on using different use cases and scenarios to present it in research day.",
   },
 ];
 
 export const projects = [
   {
     name: "Real Time chat app",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     link: "https://chat-app-mehdi.netlify.app/",
+    preview:""
   },
   {
     name: "Ecommerce plateform ",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     github: "https://github.com/mehdi-benhariz",
+    preview:""
   },
   {
-    name: "Smart City ",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    github: "https://github.com/mehdi-benhariz/smart-city",
+    name: "Booky",
+    github: "https://github.com/mehdi-benhariz/Booky",
+    link:"https://booky-smoky.vercel.app/",
+    preview:booky
   },
   {
     name: "meme generator",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     github: "https://github.com/mehdi-benhariz/meme-generator",
     link: "https://meme-generator-mehdi.netlify.app/",
+    preview:memeGenerator
   },
   {
     name: "covid tracker",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     github: "https://github.com/mehdi-benhariz/covid-tracker19",
     link: "http://covid-tracker19.surge.sh/",
+    preview:""
   },
 ];
 
 export const feedbacks = [
   {
-    name: "Hassan Mehmood",
+    name: "Terrence Mason",
     feedback:
-      "We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
+      ".",
   },
   {
-    name: "Maheen Altaf",
+    name: "Alexi",
     feedback:
-      "the website is very nice, everything was perfectly made as i need. it just loads in moments, without giving u the chance to wait. the quality is also very amazing. i am using it without any problem. great job",
+      "",
   },
 ];
