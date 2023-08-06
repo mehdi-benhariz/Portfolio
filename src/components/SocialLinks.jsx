@@ -10,11 +10,11 @@ const SocialLinks = () => {
       <Button
         className="btn-icon-only rounded-circle ml-1"
         color="facebook"
-        href={socialLinks.facebook}
+        href={socialLinks.meduim}
         target="_blank"
       >
         <span className="btn-inner--icon">
-          <i className="fa fa-facebook-square" />
+          <i className="fa fa-medium" />
         </span>
       </Button>
       <Button

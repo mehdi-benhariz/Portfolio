@@ -6,10 +6,10 @@ import ARSII from "./assets/img/icons/common/arsii.png";
 import capgemini from "./assets/img/icons/common/capgemini.png";
 import proxym from "./assets/img/icons/common/proxym.png";
 import uwstout from "./assets/img/icons/common/uwstout.png";
-
+import astrolab from "./assets/img/icons/common/astrolab.png";
 //import project previews
-import memeGenerator from "./assets/img/previews/meme_generator_preview.png" 
-import booky from "./assets/img/previews/booky_preview.png"
+import memeGenerator from "./assets/img/previews/meme_generator_preview.png";
+import booky from "./assets/img/previews/booky_preview.png";
 
 export const greetings = {
   name: "Mehdi Ben Hariz",
@@ -26,7 +26,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-  facebook: "https://www.facebook.com/mehdi.benhariz.3",
+  meduim: "https://medium.com/@benharizmehdi20",
   blogger: "https://blogging--it.blogspot.com/",
   github: "https://github.com/mehdi-benhariz",
   linkedin: "https://www.linkedin.com/in/mehdi-ben-hariz/",
@@ -37,18 +37,9 @@ export const skillsSection = {
   subTitle:
     "A software engineer passionate with solving real-world problem and building efficient solution",
   skills: [
-    // emoji(
-    //   "⚡ develop web and mobile solution with security and perfermance measurmenet"
-    // ),
-    // emoji(
-    //   "⚡ lead the development of a product from the scrach to the production"
-    // ),
-    // emoji(
-    //   "⚡ Write technical articles and create rich and pedagogic training materials"
-    // ),
-      "⚡ develop web and mobile solution with security and perfermance measurmenet",
-      "⚡ lead the development of a product from the scrach to the production",
-      "⚡ Write technical articles and create rich and pedagogic training materials",
+    "⚡ develop web and mobile solution with security and perfermance measurmenet",
+    "⚡ lead the development of a product from the scrach to the production",
+    "⚡ Write technical articles and create rich and pedagogic training materials",
   ],
   //icon source is ,fontawesome
   softwareSkills: [
@@ -83,6 +74,10 @@ export const skillsSection = {
     {
       skillName: "express",
       fontAwesomeClassname: "logos:express",
+    },
+    {
+      skillName: "nestjs",
+      fontAwesomeClassname: "logos:nestjs",
     },
     {
       skillName: "dotnet",
@@ -139,16 +134,15 @@ export const SkillBars = [
   {
     Stack: "Frontend", //Insert stack or technology you have experience in
     progressPercentage: "78", //Insert relative proficiency in percentage
-  }
-  ,
+  },
   {
     Stack: "Mobile",
     progressPercentage: "50",
   },
   {
     Stack: "DevOps",
-    progressPercentage: "45",
-  }
+    progressPercentage: "55",
+  },
 ];
 
 export const educationInfo = [
@@ -170,7 +164,8 @@ export const educationInfo = [
     schoolName: "UW-Stout - USA",
     subHeader: "Computer Science degree",
     duration: "September 2022 - Mai 2023",
-    desc: "1 year as an Exchange Student as part of international Scholarship program.",
+    desc:
+      "1 year as an Exchange Student as part of international Scholarship program.",
     descBullets: ["Chosen with 32 other students from 10k candidats"],
   },
 ];
@@ -181,42 +176,56 @@ export const experience = [
     company: "Proxym-group",
     companylogo: proxym,
     date: "june 2022 - july 2022",
-    desc: "I have implemented the concept of maker checker using a web app . The project is designed for financial services using dotnet and react .",
+    desc:
+      "I have implemented the concept of maker checker using a web app . The project is designed for financial services using dotnet and react .",
   },
   {
     role: "Consultant Assistant",
     company: "Capgemini",
     companylogo: capgemini,
     date: "February 2022 - May 2022",
-    desc: "I was part of chineese architect community program. I have been learning and testing devops tools under the supervising of company architect .",
+    desc:
+      "I was part of chineese architect community program. I have been learning and testing devops tools under the supervising of company architect .",
   },
   {
     role: "Mobile App Intern",
     company: "ARSII",
     companylogo: ARSII,
     date: "Jully 2021 – September 2021",
-    desc: "i have participate in the conception ,prototyping ,implimentation and deployment of a cross-plateform moblie app. ",
+    desc:
+      "i have participate in the conception ,prototyping ,implimentation and deployment of a cross-plateform moblie app. ",
   },
   {
     role: "President",
     company: "Microsoft Issatso Club",
     companylogo: microsoft,
     date: "December 2019 – April 2022",
-    desc: "I have taken different roles and responsabilities envolving the club. I have been a member of the club since 2019.",
+    desc:
+      "I have taken different roles and responsabilities envolving the club. I have been a member of the club since 2019.",
   },
   {
     role: "Dev Team Member",
     company: "CyberTrace Club",
     companylogo: cyberTrace,
     date: "Jully 2021 – April 2022",
-    desc: "I have participated in the development of a web application for the club. I have taken the role of a backend developer.",
+    desc:
+      "I have participated in the development of a web application for the club. I have taken the role of a backend developer.",
   },
   {
     role: "Rsearch Intern",
     company: "UW-STOUT",
     companylogo: uwstout,
     date: "February 2023 – April 2023",
-    desc: "I worked with my supervisor on NoSQL databases;making comparaison on using different use cases and scenarios to present it in research day.",
+    desc:
+      "I worked with my supervisor on NoSQL databases;making comparaison on using different use cases and scenarios to present it in research day.",
+  },
+  {
+    role: "Backend Developer",
+    company: "Astrolab Agency",
+    companylogo: astrolab,
+    date: "June 2023 – Present",
+    desc:
+      "I am participating in the lifecycle of developing Software solutions using Nestjs.",
   },
 ];
 
@@ -224,42 +233,40 @@ export const projects = [
   {
     name: "Real Time chat app",
     link: "https://chat-app-mehdi.netlify.app/",
-    preview:""
+    preview: "",
   },
   {
     name: "Ecommerce plateform ",
     github: "https://github.com/mehdi-benhariz",
-    preview:""
+    preview: "",
   },
   {
     name: "Booky",
     github: "https://github.com/mehdi-benhariz/Booky",
-    link:"https://booky-smoky.vercel.app/",
-    preview:booky
+    link: "https://booky-smoky.vercel.app/",
+    preview: booky,
   },
   {
     name: "meme generator",
     github: "https://github.com/mehdi-benhariz/meme-generator",
     link: "https://meme-generator-mehdi.netlify.app/",
-    preview:memeGenerator
+    preview: memeGenerator,
   },
   {
     name: "covid tracker",
     github: "https://github.com/mehdi-benhariz/covid-tracker19",
     link: "http://covid-tracker19.surge.sh/",
-    preview:""
+    preview: "",
   },
 ];
 
 export const feedbacks = [
   {
     name: "Terrence Mason",
-    feedback:
-      ".",
+    feedback: ".",
   },
   {
     name: "Alexi",
-    feedback:
-      "",
+    feedback: "",
   },
 ];

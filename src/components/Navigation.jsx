@@ -73,12 +73,12 @@ const Navigation = () => {
               <NavItem>
                 <NavLink
                   className="nav-link-icon"
-                  href={socialLinks.facebook}
+                  href={socialLinks.meduim}
                   target="_blank"
                 >
-                  <i className="fa fa-facebook-square fa-2x" />
+                  <i className="fa fa-medium fa-2x" />
                   <span className="nav-link-inner--text d-lg-none ml-2">
-                    Facebook
+                    Meduim
                   </span>
                 </NavLink>
               </NavItem>
