@@ -236,6 +236,13 @@ export const projects = [
     preview: "",
   },
   {
+    name: "Chkobba -  Card game",
+    link: "https://chkoba.mehdibenhariz.dev/",
+    github: "https://github.com/mehdi-benhariz/Chkoba",
+    preview: "",
+
+  },
+  {
     name: "Ecommerce plateform ",
     github: "https://github.com/mehdi-benhariz",
     preview: "",
