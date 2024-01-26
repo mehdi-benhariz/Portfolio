@@ -10,7 +10,7 @@ import astrolab from "./assets/img/icons/common/astrolab.png";
 //import project previews
 import memeGenerator from "./assets/img/previews/meme_generator_preview.png";
 import booky from "./assets/img/previews/booky_preview.png";
-
+import chkoba from "./assets/img/previews/chkoba_preview.png"
 export const greetings = {
   name: "Mehdi Ben Hariz",
   title: "Hi there, I'm Mehdi",
@@ -234,6 +234,13 @@ export const projects = [
     name: "Real Time chat app",
     link: "https://chat-app-mehdi.netlify.app/",
     preview: "",
+  },
+  {
+    name: "Chkobba -  Card game",
+    link: "https://chkoba.mehdibenhariz.dev/",
+    github: "https://github.com/mehdi-benhariz/Chkoba",
+    preview: chkoba,
+
   },
   {
     name: "Ecommerce plateform ",
