@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
 import code from "../assets/lottie/coding.json";
 
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 import { Button, Container, Row, Col } from "reactstrap";
 

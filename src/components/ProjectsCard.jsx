@@ -2,7 +2,7 @@ import React from "react";
 
 import { Card, CardBody, Col, Button } from "reactstrap";
 
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const ProjectsCard = ({ data }) => {
 	return (

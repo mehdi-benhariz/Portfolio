@@ -12,7 +12,7 @@ import {
 
 import ColorThief from "colorthief";
 
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const ExperienceCard = ({ data, fn, isFull = false }) => {
   const [colorArrays, setColorArrays] = useState([]);

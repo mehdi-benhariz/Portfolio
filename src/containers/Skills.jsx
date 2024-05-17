@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import DisplayLottie from "../components/DisplayLottie";
 import webdev from "../assets/lottie/webdev.json";
 
