@@ -3,7 +3,7 @@ import React from "react";
 import { projects } from "../portfolio";
 import { Container, Row } from "reactstrap";
 import ProjectsCard from "../components/ProjectsCard";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import SeeMoreCard from "../components/SeeMoreCard";
 
 const Projects = () => {

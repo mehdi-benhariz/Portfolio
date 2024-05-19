@@ -10,7 +10,7 @@ import {
   ModalFooter,
 } from "reactstrap";
 
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 import ExperienceCard from "../components/ExperienceCard";
 const Experience = () => {
