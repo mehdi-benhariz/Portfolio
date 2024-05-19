@@ -10,7 +10,10 @@ import astrolab from "./assets/img/icons/common/astrolab.png";
 //import project previews
 import memeGenerator from "./assets/img/previews/meme_generator_preview.png";
 import booky from "./assets/img/previews/booky_preview.png";
-import chkoba from "./assets/img/previews/chkoba_preview.png"
+import chkoba from "./assets/img/previews/chkoba_preview.png";
+import themaze from "./assets/img/previews/the_maze_preview.jpg";
+import studyBuddy from "./assets/img/previews/study_buddy_preview.png";
+
 export const greetings = {
   name: "Mehdi Ben Hariz",
   title: "Hi there, I'm Mehdi",
@@ -231,10 +234,16 @@ export const experience = [
 
 export const projects = [
   {
-    name: "Real Time chat app",
-    link: "https://chat-app-mehdi.netlify.app/",
-    preview: "",
+    name: "Mic Event Pro Apps",
+    github: "https://shorturl.at/rnjse",
+    link: "https://themaze.microsoftissatso.tn/",
+    preview: themaze,
   },
+  // {
+  //   name: "Real Time chat app",
+  //   link: "https://chat-app-mehdi.netlify.app/",
+  //   preview: "",
+  // },
   {
     name: "Chkobba -  Card game",
     link: "https://chkoba.mehdibenhariz.dev/",
@@ -243,10 +252,16 @@ export const projects = [
 
   },
   {
-    name: "Ecommerce plateform ",
-    github: "https://github.com/mehdi-benhariz",
-    preview: "",
+    name: "Meme generator",
+    // github: "https://github.com/mehdi-benhariz/meme-generator",
+    link: "https://study-bud.mehdibenhariz.dev/",
+    preview: memeGenerator,
   },
+  // {
+  //   name: "Ecommerce plateform ",
+  //   github: "https://github.com/mehdi-benhariz",
+  //   preview: "",
+  // },
   {
     name: "Booky",
     github: "https://github.com/mehdi-benhariz/Booky",
@@ -254,17 +269,17 @@ export const projects = [
     preview: booky,
   },
   {
-    name: "meme generator",
-    github: "https://github.com/mehdi-benhariz/meme-generator",
-    link: "https://meme-generator-mehdi.netlify.app/",
-    preview: memeGenerator,
+    name: "AI studdy Buddy",
+    // github: "https://github.com/mehdi-benhariz/meme-generator",
+    link: "https://study-bud.mehdibenhariz.dev/",
+    preview: studyBuddy,
   },
-  {
-    name: "covid tracker",
-    github: "https://github.com/mehdi-benhariz/covid-tracker19",
-    link: "http://covid-tracker19.surge.sh/",
-    preview: "",
-  },
+  // {
+  //   name: "covid tracker",
+  //   github: "https://github.com/mehdi-benhariz/covid-tracker19",
+  //   link: "http://covid-tracker19.surge.sh/",
+  //   preview: "",
+  // },
 ];
 
 export const feedbacks = [
