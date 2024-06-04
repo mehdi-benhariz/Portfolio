@@ -226,7 +226,7 @@ export const experience = [
     role: "Backend Developer",
     company: "Astrolab Agency",
     companylogo: astrolab,
-    date: "June 2023 – Present",
+    date: "June 2023 – April 2024",
     desc:
       "I am participating in the lifecycle of developing Software solutions using Nestjs.",
   },
