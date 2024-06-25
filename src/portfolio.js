@@ -40,8 +40,8 @@ export const skillsSection = {
   subTitle:
     "A software engineer passionate with solving real-world problem and building efficient solution",
   skills: [
-    "⚡ develop web and mobile solution with security and perfermance measurmenet",
-    "⚡ lead the development of a product from the scrach to the production",
+    "⚡ Lead the development of a product from the scrach to the production",
+    "⚡ Implement DevOps practices and pipleines to automate tasks ",
     "⚡ Write technical articles and create rich and pedagogic training materials",
   ],
   //icon source is ,fontawesome
@@ -144,7 +144,7 @@ export const SkillBars = [
   // },
   {
     Stack: "DevOps",
-    progressPercentage: "55",
+    progressPercentage: "60",
   },
 ];
 
@@ -175,12 +175,12 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: "Web Dev Intern",
-    company: "Proxym-group",
-    companylogo: proxym,
-    date: "june 2022 - july 2022",
+    role: "Mobile App Intern",
+    company: "ARSII",
+    companylogo: ARSII,
+    date: "Jully 2021 – September 2021",
     desc:
-      "I have implemented the concept of maker checker using a web app . The project is designed for financial services using dotnet and react .",
+      "i have participate in the conception ,prototyping ,implimentation and deployment of a cross-plateform moblie app. ",
   },
   {
     role: "Consultant Assistant",
@@ -191,12 +191,12 @@ export const experience = [
       "I was part of chineese architect community program. I have been learning and testing devops tools under the supervising of company architect .",
   },
   {
-    role: "Mobile App Intern",
-    company: "ARSII",
-    companylogo: ARSII,
-    date: "Jully 2021 – September 2021",
+    role: "Web Dev Intern",
+    company: "Proxym-group",
+    companylogo: proxym,
+    date: "june 2022 - july 2022",
     desc:
-      "i have participate in the conception ,prototyping ,implimentation and deployment of a cross-plateform moblie app. ",
+      "I have implemented the concept of maker checker using a web app . The project is designed for financial services using dotnet and react .",
   },
   {
     role: "President",
