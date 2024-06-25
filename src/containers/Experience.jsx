@@ -49,9 +49,9 @@ const Experience = () => {
                 </ModalFooter>
               </Modal>
             </div>
-            {experience.map((data, i) => {
-              return <ExperienceCard key={i} data={data} fn={openDetails} />;
-            })}
+            {[...experience].reverse().map((data, i) => {
+  return <ExperienceCard key={i} data={data} fn={openDetails} />;
+})}
           </Row>
         </Fade>
       </Container>
