@@ -86,10 +86,10 @@ export const skillsSection = {
       skillName: "dotnet",
       fontAwesomeClassname: "logos:dotnet",
     },
-    // {
-    //   skillName: "django",
-    //   fontAwesomeClassname: "logos:django",
-    // },
+    {
+      skillName: "django",
+      fontAwesomeClassname: "logos:django",
+    },
     {
       skillName: "mysql",
       fontAwesomeClassname: "vscode-icons:file-type-mysql",
