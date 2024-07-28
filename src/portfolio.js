@@ -7,6 +7,8 @@ import capgemini from "./assets/img/icons/common/capgemini.png";
 import proxym from "./assets/img/icons/common/proxym.png";
 import uwstout from "./assets/img/icons/common/uwstout.png";
 import astrolab from "./assets/img/icons/common/astrolab.png";
+import c4sam from "./assets/img/icons/common/C4SAM.png";
+
 //import project previews
 import memeGenerator from "./assets/img/previews/meme_generator_preview.png";
 import booky from "./assets/img/previews/booky_preview.png";
@@ -86,10 +88,10 @@ export const skillsSection = {
       skillName: "dotnet",
       fontAwesomeClassname: "logos:dotnet",
     },
-    // {
-    //   skillName: "django",
-    //   fontAwesomeClassname: "logos:django",
-    // },
+    {
+      skillName: "django",
+      fontAwesomeClassname: "logos:django",
+    },
     {
       skillName: "mysql",
       fontAwesomeClassname: "vscode-icons:file-type-mysql",
@@ -230,6 +232,15 @@ export const experience = [
     desc:
       "I am participating in the lifecycle of developing Software solutions using Nestjs.",
   },
+
+  {
+    role: "Backend / DevOps Engineer",
+    company: "C4SAM",
+    companylogo: c4sam,
+    date: "July 2024 – Present",
+    desc:
+      "I am responsible for implementing and maintaining a product for DssevOps tools sintegration",
+  }
 ];
 
 export const projects = [
