@@ -17,7 +17,8 @@ const SeeMoreCard = () => {
                 <Button
                   className="btn-icon"
                   color="success"
-                  href={`https://github.com/${openSource.githubUserName}`}
+                  // href={`https://github.com/${openSource.githubUserName}`}
+                  href="https://projects.mehdibenhariz.dev/"
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
