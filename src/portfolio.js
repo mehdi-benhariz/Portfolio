@@ -161,7 +161,7 @@ export const educationInfo = [
   {
     schoolName: "ISSATsousse",
     subHeader: "Software Engineering degree",
-    duration: "September 2021 - Jully 2024",
+    duration: "September 2021 - Jully 2025",
     desc: "Studied Software Engineering.",
     descBullets: [],
   },
