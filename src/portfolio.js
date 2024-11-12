@@ -42,7 +42,7 @@ export const skillsSection = {
   subTitle:
     "A software engineer passionate with solving real-world problem and building efficient solution",
   skills: [
-    "⚡ Lead the development of a product from the scrach to the production",
+    "⚡ Lead the development of a product from the scratch to the production",
     "⚡ Implement DevOps practices and pipleines to automate tasks ",
     "⚡ Write technical articles and create rich and pedagogic training materials",
   ],
@@ -65,13 +65,17 @@ export const skillsSection = {
       fontAwesomeClassname: "logos:typescript-icon",
     },
     {
+      skillName: "python",
+      fontAwesomeClassname: "logos:python",
+    },
+    {
       skillName: "reactjs",
       fontAwesomeClassname: "vscode-icons:file-type-reactjs",
     },
-    {
-      skillName: "flutter",
-      fontAwesomeClassname: "logos:flutter",
-    },
+    // {
+    //   skillName: "flutter",
+    //   fontAwesomeClassname: "logos:flutter",
+    // },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "logos:nodejs-icon",
@@ -97,8 +101,13 @@ export const skillsSection = {
       fontAwesomeClassname: "vscode-icons:file-type-mysql",
     },
     {
+      skillName: "postgresql",
+      fontAwesomeClassname: "logos:postgresql",
+    },
+
+    {
       skillName: "mongoDB",
-      fontAwesomeClassname: "vscode-icons:file-type-mongo",
+      fontAwesomeClassname: "logos:mongodb",
     },
     {
       skillName: "C",
@@ -108,13 +117,13 @@ export const skillsSection = {
       skillName: "CPP",
       fontAwesomeClassname: "logos:c-plusplus",
     },
+    // {
+    //   skillName: "java",
+    //   fontAwesomeClassname: "logos:java",
+    // },
     {
-      skillName: "java",
-      fontAwesomeClassname: "logos:java",
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "logos:python",
+      skillName: "kubernetes",
+      fontAwesomeClassname: "logos:kubernetes",
     },
     {
       skillName: "git",
@@ -128,6 +137,11 @@ export const skillsSection = {
       skillName: "docker",
       fontAwesomeClassname: "logos:docker-icon",
     },
+    {
+      skillName: 'azure',
+      fontAwesomeClassname: 'logos:azure-icon',
+
+    }
   ],
 };
 
