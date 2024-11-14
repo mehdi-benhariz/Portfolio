@@ -52,18 +52,20 @@ const ProjectsCard = ({ data }) => {
   <Fade bottom duration={1000} distance="40px">
     <Card className="shadow-lg--hover shadow mt-4">
       <CardBody>
-        <div className="d-flex justify-content-center">
-          <img
-            src={data.preview}
-            alt={`preview for project ${data.name}`}
-            style={{
-              width: '100%',
-              maxHeight: '100%',
-              objectFit: 'cover',
-              objectPosition: 'top',
-            }}
-          />
-        </div>
+      <div className="d-flex justify-content-center">
+  <img
+    src={data.preview}
+    alt={`preview for project ${data.name}`}
+    style={{
+      width: '100%',
+      height: '100%',
+      objectFit: 'contain',
+      objectPosition: 'center',
+      maxWidth: '100%',
+      maxHeight: '100%'
+    }}
+  />
+</div>
         <div className="mt-3">
           <h3>{data.name}</h3>
           <div className="d-flex justify-content-between">

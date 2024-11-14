@@ -1,0 +1,94 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="400" fill="#0D1117"/>
+    <!-- Background gradient effect -->
+    <path d="M0 0 L800 0 L800 400 L0 400 Z" fill="url(#grad)"/>
+    <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#0D1117;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#1F2937;stop-opacity:1" />
+        </linearGradient>
+        <!-- Glowing effect -->
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Title -->
+    <text x="400" y="80" fill="white" font-family="Arial" font-size="40" text-anchor="middle" font-weight="bold">
+        Modern DevOps Pipeline
+    </text>
+    <text x="400" y="115" fill="#8B949E" font-family="Arial" font-size="20" text-anchor="middle">
+        Continuous Deployment with GitOps
+    </text>
+
+    <!-- Git Logo -->
+    <g transform="translate(150, 200) scale(0.8)">
+        <circle cx="0" cy="0" r="40" fill="#F05133"/>
+        <path d="M-15,-15 L15,15 M-15,15 L15,-15" stroke="white" stroke-width="8" stroke-linecap="round"/>
+    </g>
+
+    <!-- Argo CD Logo stylized -->
+    <g transform="translate(300, 200)">
+        <circle cx="0" cy="0" r="35" fill="#EE7600"/>
+        <path d="M-20,-5 Q0,-25 20,-5 Q0,15 -20,-5" fill="none" stroke="white" stroke-width="4"/>
+    </g>
+
+    <!-- Azure Logo -->
+    <g transform="translate(450, 200)">
+        <path d="M-30,20 L-10,-20 L30,20 L-30,20 M0,-10 L20,15 L40,-15 L0,-10" 
+              fill="#0078D4" filter="url(#glow)"/>
+    </g>
+
+    <!-- Kubernetes Logo simplified -->
+    <g transform="translate(600, 200)">
+        <circle cx="0" cy="0" r="35" fill="none" stroke="#326CE5" stroke-width="4"/>
+        <path d="M0,-35 L30,17.5 L-30,17.5 Z" fill="none" stroke="#326CE5" stroke-width="4"/>
+    </g>
+
+    <!-- Grafana Logo stylized -->
+    <g transform="translate(750, 200)">
+        <circle cx="0" cy="0" r="35" fill="#F46800"/>
+        <path d="M-15,-15 Q0,-5 15,-15 M-20,0 Q0,10 20,0 M-15,15 Q0,25 15,15" 
+              stroke="white" stroke-width="3" fill="none"/>
+    </g>
+
+    <!-- Connecting lines -->
+    <g stroke="#4A5568" stroke-width="2" stroke-dasharray="5,5">
+        <path d="M190,200 L260,200"/>
+        <path d="M335,200 L415,200"/>
+        <path d="M485,200 L565,200"/>
+        <path d="M635,200 L715,200"/>
+    </g>
+
+    <!-- Labels -->
+    <g font-family="Arial" font-size="14" fill="#8B949E" text-anchor="middle">
+        <text x="150" y="260">Git</text>
+        <text x="300" y="260">Argo CD</text>
+        <text x="450" y="260">Azure</text>
+        <text x="600" y="260">Kubernetes</text>
+        <text x="750" y="260">Grafana</text>
+    </g>
+
+    <!-- Bottom decorative line -->
+    <path d="M100,300 Q400,320 700,300" stroke="#4A5568" stroke-width="2" fill="none"/>
+    
+    <!-- Decorative dots -->
+    <g fill="#4A5568">
+        <circle cx="100" cy="300" r="3"/>
+        <circle cx="400" cy="310" r="3"/>
+        <circle cx="700" cy="300" r="3"/>
+    </g>
+
+    <!-- Decorative elements -->
+    <g opacity="0.1" fill="white">
+        <circle cx="50" cy="50" r="2"/>
+        <circle cx="750" cy="350" r="2"/>
+        <circle cx="750" cy="50" r="2"/>
+        <circle cx="50" cy="350" r="2"/>
+    </g>
+</svg>

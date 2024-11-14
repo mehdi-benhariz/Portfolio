@@ -15,6 +15,7 @@ import booky from "./assets/img/previews/booky_preview.png";
 import chkoba from "./assets/img/previews/chkoba_preview.png";
 import themaze from "./assets/img/previews/the_maze_preview.jpg";
 import studyBuddy from "./assets/img/previews/study_buddy_preview.png";
+import gitopsdemo from "./assets/img/previews/gitops_demo_preview_2.svg";
 
 export const greetings = {
   name: "Mehdi Ben Hariz",
@@ -264,11 +265,12 @@ export const projects = [
     link: "https://themaze.microsoftissatso.tn/",
     preview: themaze,
   },
-  // {
-  //   name: "Real Time chat app",
-  //   link: "https://chat-app-mehdi.netlify.app/",
-  //   preview: "",
-  // },
+  {
+    name: "GitOps Demo",
+    github: "https://github.com/mehdi-benhariz/demo-gitops",
+    preview: gitopsdemo,
+    link: "https://projects.mehdibenhariz.dev/project/2"
+  },
   {
     name: "Chkobba -  Card game",
     link: "https://chkoba.mehdibenhariz.dev/",
