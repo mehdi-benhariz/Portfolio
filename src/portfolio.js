@@ -52,14 +52,14 @@ export const skillsSection = {
   ],
   //icon source is ,fontawesome
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "vscode-icons:file-type-html",
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "vscode-icons:file-type-css",
-    },
+    // {
+    //   skillName: "html-5",
+    //   fontAwesomeClassname: "vscode-icons:file-type-html",
+    // },
+    // {
+    //   skillName: "css3",
+    //   fontAwesomeClassname: "vscode-icons:file-type-css",
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "logos:javascript",
@@ -71,6 +71,11 @@ export const skillsSection = {
     {
       skillName: "python",
       fontAwesomeClassname: "logos:python",
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "logos:java",
+
     },
     {
       skillName: "reactjs",
