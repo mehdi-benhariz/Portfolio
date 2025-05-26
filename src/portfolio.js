@@ -8,7 +8,7 @@ import proxym from "./assets/img/icons/common/proxym.png";
 import uwstout from "./assets/img/icons/common/uwstout.png";
 import astrolab from "./assets/img/icons/common/astrolab.png";
 import c4sam from "./assets/img/icons/common/C4SAM.png";
-
+import dassault from "./assets/img/icons/common/3ds.png";
 //import project previews
 import memeGenerator from "./assets/img/previews/meme_generator_preview.png";
 import booky from "./assets/img/previews/booky_preview.png";
@@ -16,6 +16,9 @@ import chkoba from "./assets/img/previews/chkoba_preview.png";
 import themaze from "./assets/img/previews/the_maze_preview.jpg";
 import studyBuddy from "./assets/img/previews/study_buddy_preview.png";
 import gitopsdemo from "./assets/img/previews/gitops_demo_preview_2.svg";
+// import terraform from "./assets/img/previews/terraform_preview.webp";
+import terraform from "./assets/img/previews/terraform.svg";
+
 
 export const greetings = {
   name: "Mehdi Ben Hariz",
@@ -254,7 +257,15 @@ export const experience = [
     companylogo: c4sam,
     date: "July 2024 – Present",
     desc:
-      "I am responsible for implementing and maintaining a product for DssevOps tools sintegration",
+      "I am responsible for implementing and maintaining a product for DevSecOps tools integration",
+  },
+  {
+    role: "Software Engineer Intern",
+    company: "Dassault Systèmes",
+    companylogo: dassault,
+    date: "February 2024 – Present",
+    desc:
+      "I am responsible for implementing a solution for log ingestion and analysis using Java and Grafana .",
   }
 ];
 
@@ -276,6 +287,13 @@ export const projects = [
     link: "https://chkoba.mehdibenhariz.dev/",
     github: "https://github.com/mehdi-benhariz/Chkoba",
     preview: chkoba,
+
+  },
+  {
+    name: "Terraform Dev Environment",
+    link: "https://github.com/mehdi-benhariz/dev-env-tarraform",
+    github: "https://github.com/mehdi-benhariz/dev-env-tarraform",
+    preview: terraform,
 
   },
   {
