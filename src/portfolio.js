@@ -265,10 +265,10 @@ export const experience = [
       "I am responsible for implementing and maintaining a product for DevSecOps tools integration",
   },
   {
-    role: "Software Engineer Intern",
+    role: "Software   & Data science Engineer Intern",
     company: "Dassault Systèmes",
     companylogo: dassault,
-    date: "February 2024 – Present",
+    date: "February 2025 – July 2025",
     desc:
       "I am responsible for implementing a solution for log ingestion and analysis using Java and Grafana .",
   }
