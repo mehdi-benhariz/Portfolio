@@ -48,7 +48,7 @@ export const skillsSection = {
   skills: [
     "⚡ Lead the development of a product from the scratch to the production",
     "⚡ Implement DevOps practices and pipleines to automate tasks ",
-    "⚡ Write technical articles and create rich and pedagogic training materials",
+    "⚡ Integrate AI modules to enhance user experience and optimize processes",
   ],
   //icon source is ,fontawesome
   softwareSkills: [
@@ -159,6 +159,14 @@ export const SkillBars = [
     Stack: "Backend",
     progressPercentage: "90",
   },
+  {
+    Stack: "DevOps",
+    progressPercentage: "60",
+  },
+  {
+    Stack: "AI/ML",
+    progressPercentage: "50",
+  },
   // {
   //   Stack: "Frontend", //Insert stack or technology you have experience in
   //   progressPercentage: "78", //Insert relative proficiency in percentage
@@ -167,10 +175,6 @@ export const SkillBars = [
   //   Stack: "Mobile",
   //   progressPercentage: "50",
   // },
-  {
-    Stack: "DevOps",
-    progressPercentage: "60",
-  },
 ];
 
 export const educationInfo = [
@@ -270,7 +274,7 @@ export const experience = [
     companylogo: dassault,
     date: "February 2025 – July 2025",
     desc:
-      "I am responsible for implementing a solution for log ingestion and analysis using Java and Grafana .",
+      "I am responsible for implementing a solution for log ingestion and analysis using Java , Python and Grafana .",
   }
 ];
 
