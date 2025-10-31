@@ -259,23 +259,23 @@ export const experience = [
     desc:
       "I am participating in the lifecycle of developing Software solutions using Nestjs.",
   },
-
-  {
-    role: "Backend / DevOps Engineer",
-    company: "C4SAM",
-    companylogo: c4sam,
-    date: "July 2024 – Present",
-    desc:
-      "I am responsible for implementing and maintaining a product for DevSecOps tools integration",
-  },
   {
     role: "Software   & Data science Engineer Intern",
     company: "Dassault Systèmes",
     companylogo: dassault,
     date: "February 2025 – July 2025",
     desc:
-      "I am responsible for implementing a solution for log ingestion and analysis using Java , Python and Grafana .",
-  }
+    "I am responsible for implementing a solution for log ingestion and analysis using Java , Python and Grafana .",
+  },
+  
+    {
+      role: "Backend / DevOps Engineer",
+      company: "C4SAM",
+      companylogo: c4sam,
+      date: "July 2024 – Present",
+      desc:
+        "I am responsible for implementing and maintaining a product for DevSecOps tools integration",
+    }
 ];
 
 export const projects = [
