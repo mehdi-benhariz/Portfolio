@@ -48,7 +48,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.16.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "netlify-cli": "^17.10.1",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-normalize": "^10.0.1",
