@@ -9,6 +9,7 @@ import uwstout from "./assets/img/icons/common/uwstout.png";
 import astrolab from "./assets/img/icons/common/astrolab.png";
 import c4sam from "./assets/img/icons/common/C4SAM.png";
 import dassault from "./assets/img/icons/common/3ds.png";
+import cihub from "./assets/img/icons/common/cihub.png";
 //import project previews
 import memeGenerator from "./assets/img/previews/meme_generator_preview.png";
 import booky from "./assets/img/previews/booky_preview.png";
@@ -269,13 +270,21 @@ export const experience = [
   },
   
     {
-      role: "Backend / DevOps Engineer",
+      role: "Backend / DevOps Engineer (Consultant)",
       company: "C4SAM",
       companylogo: c4sam,
       date: "July 2024 – Present",
       desc:
         "I am responsible for implementing and maintaining a product for DevSecOps tools integration",
-    }
+    } ,
+    {
+      role: "Backend / AI Engineer",
+      company: "CI-HUB",
+      companylogo: cihub,
+      date: "January 2026 – Present",
+      desc:
+        "I am responsible for implementing and maintaining the backend and AI projects for the company",
+    } ,
 ];
 
 export const projects = [
