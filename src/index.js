@@ -6,6 +6,8 @@ import Greetings from "./containers/Greetings";
 import Skills from "./containers/Skills";
 import Proficiency from "./containers/Proficiency";
 import Education from "./containers/Education";
+import Internships from "./containers/Internships";
+import Community from "./containers/Community";
 import Experience from "./containers/Experience";
 import Projects from "./containers/Projects";
 import GithubProfile from "./containers/GithubProfile";
@@ -23,6 +25,8 @@ ReactDOM.render(
     <Proficiency />
     <Education />
     <Experience />
+    <Internships />
+    <Community />
     <Projects />
     <GithubProfile />
   </React.StrictMode>,

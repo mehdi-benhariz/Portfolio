@@ -203,55 +203,55 @@ export const educationInfo = [
   },
 ];
 
-export const experience = [
+export const internships = [
   {
     role: "Mobile App Intern",
     company: "ARSII",
     companylogo: ARSII,
-    date: "Jully 2021 – September 2021",
-    desc:
-      "i have participate in the conception ,prototyping ,implimentation and deployment of a cross-plateform moblie app. ",
+    date: "July 2021 – September 2021",
+    desc: "Participated in the conception, prototyping, implementation and deployment of a cross-platform mobile app.",
   },
   {
     role: "Consultant Assistant",
     company: "Capgemini",
     companylogo: capgemini,
-    date: "February 2022 - May 2022",
-    desc:
-      "I was part of chineese architect community program. I have been learning and testing devops tools under the supervising of company architect .",
+    date: "February 2022 – May 2022",
+    desc: "Part of the Chinese architect community program. Learned and tested DevOps tools under the supervision of a company architect.",
   },
   {
     role: "Web Dev Intern",
     company: "Proxym-group",
     companylogo: proxym,
-    date: "june 2022 - july 2022",
-    desc:
-      "I have implemented the concept of maker checker using a web app . The project is designed for financial services using dotnet and react .",
+    date: "June 2022 – July 2022",
+    desc: "Implemented the maker-checker concept in a web app designed for financial services using .NET and React.",
   },
+  {
+    role: "Research Intern",
+    company: "UW-Stout",
+    companylogo: uwstout,
+    date: "February 2023 – April 2023",
+    desc: "Worked with my supervisor on NoSQL databases, comparing different use cases and scenarios, presented findings at Research Day.",
+  },
+];
+
+export const communityExperience = [
   {
     role: "President",
     company: "Microsoft Issatso Club",
     companylogo: microsoft,
     date: "December 2019 – April 2022",
-    desc:
-      "I have taken different roles and responsabilities envolving the club. I have been a member of the club since 2019.",
+    desc: "Led and grew the club across multiple roles and responsibilities. Active member since the club's founding in 2019.",
   },
   {
     role: "Dev Team Member",
     company: "CyberTrace Club",
     companylogo: cyberTrace,
-    date: "Jully 2021 – April 2022",
-    desc:
-      "I have participated in the development of a web application for the club. I have taken the role of a backend developer.",
+    date: "July 2021 – April 2022",
+    desc: "Participated in the development of a web application for the club as a backend developer.",
   },
-  {
-    role: "Rsearch Intern",
-    company: "UW-STOUT",
-    companylogo: uwstout,
-    date: "February 2023 – April 2023",
-    desc:
-      "I worked with my supervisor on NoSQL databases;making comparaison on using different use cases and scenarios to present it in research day.",
-  },
+];
+
+export const experience = [
   {
     role: "Backend Developer",
     company: "Astrolab Agency",
