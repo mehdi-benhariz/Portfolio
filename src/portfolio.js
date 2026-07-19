@@ -25,7 +25,7 @@ export const greetings = {
   name: "Mehdi Ben Hariz",
   title: "Hi there, I'm Mehdi",
   description:
-    "As a dedicated and detail-oriented software engineer , I thrive on challenges and excel in delivering results. Whether you need a complex web application or an elegant DevOps solution, I'm confident that I can deliver with precision and expertise.",
+    "I turn ideas into production systems — clean backends, smooth pipelines, and a touch of AI magic. From first commit to final deploy, I build software that ships.",
   resumeLink: "_Resume_Mehdi_Ben_Hariz.pdf",
 };
 
@@ -48,7 +48,7 @@ export const skillsSection = {
     "A software engineer passionate with solving real-world problem and building efficient solution",
   skills: [
     "⚡ Lead the development of a product from the scratch to the production",
-    "⚡ Implement DevOps practices and pipleines to automate tasks ",
+    "⚡ Implement DevOps practices and pipelines to automate tasks ",
     "⚡ Integrate AI modules to enhance user experience and optimize processes",
   ],
   //icon source is ,fontawesome
@@ -187,19 +187,19 @@ export const educationInfo = [
     descBullets: ["I was a Valdectorian of my promotion"],
   },
   {
+    schoolName: "UW-Stout - USA",
+    subHeader: "Computer Science degree",
+    duration: "September 2022 - Mai 2023",
+    desc:
+    "1 year as an Exchange Student as part of international Scholarship program.",
+    descBullets: ["Chosen with 32 other students from 10k candidats"],
+  },
+  {
     schoolName: "ISSATsousse",
     subHeader: "Software Engineering degree",
     duration: "September 2021 - Jully 2025",
     desc: "Studied Software Engineering.",
     descBullets: [],
-  },
-  {
-    schoolName: "UW-Stout - USA",
-    subHeader: "Computer Science degree",
-    duration: "September 2022 - Mai 2023",
-    desc:
-      "1 year as an Exchange Student as part of international Scholarship program.",
-    descBullets: ["Chosen with 32 other students from 10k candidats"],
   },
 ];
 
