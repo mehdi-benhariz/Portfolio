@@ -29,7 +29,7 @@ const Projects = () => {
         <div className="projects-grid">
           {projects.map((project, i) => (
             <Reveal key={project.name} delay={(i % 3) * 100}>
-              <article className="cine-glass cine-tilt project-card">
+              <article className="cine-glass cine-tilt cine-sheen project-card">
                 {project.preview && (
                   <div className="project-thumb">
                     <img src={project.preview} alt={`${project.name} preview`} loading="lazy" />

@@ -32,24 +32,37 @@ const Education = () => {
 
         gsap.utils.toArray(".timeline-item").forEach((item) => {
           const fromLeft = item.classList.contains("is-left");
-          const tl = gsap.timeline({
-            scrollTrigger: { trigger: item, start: "top 78%", once: true },
-          });
-          tl.from(item.querySelector(".timeline-dot"), {
-            scale: 0,
-            duration: 0.4,
-            ease: "back.out(2.5)",
-          }).from(
-            item.querySelector(".timeline-card"),
-            {
-              autoAlpha: 0,
-              x: fromLeft ? -48 : 48,
-              duration: 0.7,
-              ease: "power3.out",
-            },
-            "-=0.15"
-          );
+          const isMobile = window.matchMedia("(max-width: 760px)").matches;
+          const card = item.querySelector(".timeline-card");
+          const dot = item.querySelector(".timeline-dot");
+
+          gsap
+            .timeline({
+              scrollTrigger: { trigger: item, start: "top 80%", once: true },
+            })
+            .from(dot, {
+              scale: 0,
+              duration: 0.4,
+              ease: "back.out(2.2)",
+            })
+            .from(
+              card,
+              {
+                autoAlpha: 0,
+                x: isMobile ? 0 : fromLeft ? -40 : 40,
+                y: isMobile ? 24 : 0,
+                duration: 0.65,
+                ease: "expo.out",
+              },
+              "-=0.15"
+            );
         });
+      });
+
+      mm.add("(prefers-reduced-motion: reduce)", () => {
+        gsap.set(".timeline-card", { autoAlpha: 1, x: 0, y: 0 });
+        gsap.set(".timeline-dot", { scale: 1 });
+        gsap.set(".timeline-line-fill", { scaleY: 1 });
       });
     },
     { scope: ref, dependencies: [lang], revertOnUpdate: true }
@@ -75,7 +88,7 @@ const Education = () => {
             return (
               <div className={`timeline-item ${side}`} key={`${edu.schoolName}-${edu.subHeader}`}>
                 <div className="timeline-dot" aria-hidden="true" />
-                <article className="cine-glass cine-tilt timeline-card">
+                <article className="cine-glass cine-tilt cine-sheen timeline-card">
                   <p className="xp-date">{edu.duration}</p>
                   <h3 className="edu-school">{edu.schoolName}</h3>
                   <p className="edu-degree">{subHeader}</p>
