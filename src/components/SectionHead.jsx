@@ -13,54 +13,64 @@ const SectionHead = ({ eyebrow, title, lead }) => {
 
   useGSAP(
     () => {
+      const root = ref.current;
+      if (!root) return;
+
       const mm = gsap.matchMedia();
+      const markReady = () => root.classList.add("is-ready");
 
       mm.add("(prefers-reduced-motion: no-preference)", () => {
-        const heading = ref.current.querySelector("h2");
-        const split = new SplitText(heading, { type: "words", mask: "words", wordsClass: "split-word" });
-
-        gsap.set(ref.current, { autoAlpha: 1 });
-        const tl = gsap.timeline({
-          scrollTrigger: { trigger: ref.current, start: "top 80%", once: true },
+        const heading = root.querySelector("h2");
+        const split = new SplitText(heading, {
+          type: "words",
+          mask: "words",
+          wordsClass: "split-word",
         });
 
-        tl.from(ref.current.querySelector(".cine-eyebrow"), {
+        gsap.set(root, { autoAlpha: 1 });
+        markReady();
+
+        const tl = gsap.timeline({
+          scrollTrigger: { trigger: root, start: "top 82%", once: true },
+        });
+
+        tl.from(root.querySelector(".cine-eyebrow"), {
           autoAlpha: 0,
-          y: 16,
-          duration: 0.5,
+          y: 14,
+          duration: 0.45,
           ease: "power2.out",
         })
           .from(
             split.words,
             {
-              yPercent: 110,
+              yPercent: 105,
               autoAlpha: 0,
-              duration: 0.7,
-              stagger: 0.06,
-              ease: "power3.out",
+              duration: 0.65,
+              stagger: 0.05,
+              ease: "expo.out",
             },
-            "-=0.25"
+            "-=0.2"
           )
           .from(
-            ref.current.querySelector(".cine-lead"),
-            { autoAlpha: 0, y: 20, duration: 0.6, ease: "power2.out" },
-            "-=0.4"
+            root.querySelector(".cine-lead"),
+            { autoAlpha: 0, y: 16, duration: 0.55, ease: "power2.out" },
+            "-=0.35"
           );
 
         return () => split.revert();
       });
 
       mm.add("(prefers-reduced-motion: reduce)", () => {
-        gsap.set(ref.current, { autoAlpha: 1 });
+        gsap.set(root, { autoAlpha: 1 });
+        markReady();
       });
     },
     { scope: ref, dependencies: [lang], revertOnUpdate: true }
   );
 
   return (
-    <div className="section-head" ref={ref} style={{ visibility: "hidden" }}>
+    <div className="section-head gsap-cloak" ref={ref}>
       <p className="cine-eyebrow">{eyebrow}</p>
-      {/* Key by language: SplitText mutates the DOM, so force a fresh node on switch */}
       <h2 className="cine-display cine-silver split-mask" key={lang}>
         {title}
       </h2>

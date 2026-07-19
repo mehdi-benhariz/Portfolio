@@ -32,7 +32,7 @@ const XpCard = ({ item, delay }) => {
 
   return (
     <Reveal delay={delay}>
-      <article className="cine-glass cine-tilt xp-card">
+      <article className="cine-glass cine-tilt cine-sheen xp-card">
         <div className="xp-card-head">
           <img className="xp-logo" src={item.companylogo} alt={`${item.company} logo`} />
           <div>

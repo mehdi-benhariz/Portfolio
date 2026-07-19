@@ -41,7 +41,7 @@ const Contact = () => {
     <section className="cine-section" id="contact">
       <div className="cine-container">
         <Reveal>
-          <div className="cine-premium contact-card">
+          <div className="cine-premium cine-sheen contact-card">
             <p className="cine-eyebrow">{t.contact.eyebrow}</p>
             <h2 className="cine-display cine-silver">{t.contact.title}</h2>
             <div className="contact-ctas">
