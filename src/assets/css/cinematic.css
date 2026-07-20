@@ -977,6 +977,10 @@ a {
   font-size: 1.9rem;
   width: 1.9rem;
   height: 1.9rem;
+  /* Soft light halo so dark logos (Express, Django, etc.) stay visible on glass */
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.95))
+    drop-shadow(0 0 6px rgba(255, 255, 255, 0.45))
+    drop-shadow(0 2px 4px rgba(0, 0, 0, 0.55));
 }
 
 .tech-item span.tech-name {
