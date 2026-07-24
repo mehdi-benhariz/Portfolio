@@ -88,9 +88,9 @@ export const translations = {
       trackRecord: "Palmarès",
       scroll: "Défiler",
       stats: [
-        { strong: "7+ projets livrés", soft: "Apps web · DevOps · expérimentations IA" },
-        { strong: "Ingénieur Backend / DevOps", soft: "C4SAM · intégration d'outils DevSecOps" },
+        { strong: "Divers projets freelance", soft: "Développement · Implémentation · Conseil" },
         { strong: "Ingénieur Backend / IA", soft: "CI-HUB · projets backend & IA" },
+        { strong: "Ingénieur Backend / DevOps", soft: "C4SAM · intégration d'outils DevSecOps" },
         { strong: "Expérience internationale", soft: "Tunisie · France · USA (boursier UW-Stout)" },
       ],
     },
@@ -127,7 +127,7 @@ export const translations = {
       code: "Code",
     },
     contact: {
-      eyebrow: "Contact",
+      eyebrow: "Entrer en contact",
       title: "Besoin d'un ingénieur backend, DevOps ou IA qui livre ? Parlons-en.",
       ctaContact: "Me contacter",
       ctaResume: "Télécharger le CV",
@@ -145,20 +145,20 @@ export const translations = {
       resume: "السيرة",
     },
     hero: {
-      eyebrow: "برمجيات · باك-إند · DevOps · ذكاء اصطناعي",
-      greeting: "مرحبًا، أنا",
+      eyebrow: "برمجيات · باك إند · DevOps · ذكاء اصطناعي",
+      greeting: "مرحباً، أنا",
       name: "مهدي بن حريز.",
       bio:
-        "أحوّل الأفكار إلى أنظمة إنتاج حقيقية — باك-إند نظيف، وخطوط نشر سلسة، ولمسة من الذكاء الاصطناعي. من أول commit إلى آخر نشر، أبني برمجيات تصل فعلًا إلى المستخدم.",
+        "أحوّل الأفكار إلى أنظمة جاهزة للإنتاج — باك إند نظيف، وخطوط نشر سلسة، ولمسة من الذكاء الاصطناعي. من أول سطر برمجي إلى الإطلاق النهائي، أبني برمجيات تُنجَز وتُسلَّم.",
       ctaWork: "استكشف أعمالي",
       ctaContact: "تواصل معي",
       trackRecord: "سجل الإنجازات",
       scroll: "مرّر",
       stats: [
-        { strong: "أكثر من 7 مشاريع مُنجزة", soft: "تطبيقات ويب · DevOps · تجارب ذكاء اصطناعي" },
-        { strong: "مهندس باك-إند / DevOps", soft: "C4SAM · تكامل أدوات DevSecOps" },
+        { strong: "مشاريع مستقلة متنوعة", soft: "تطوير · تنفيذ · استشارات" },
         { strong: "مهندس باك-إند / ذكاء اصطناعي", soft: "CI-HUB · مشاريع باك-إند وذكاء اصطناعي" },
-        { strong: "خبرة دولية", soft: "تونس · فرنسا · الولايات المتحدة (منحة UW-Stout)" },
+        { strong: "مهندس باك-إند / DevOps", soft: "C4SAM · تكامل أدوات DevSecOps" },
+        { strong: "خبرة دولية", soft: "تونس · فرنسا · الولايات المتحدة (حامل منحة UW-Stout)" },
       ],
     },
     about: {

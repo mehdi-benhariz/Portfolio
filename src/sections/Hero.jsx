@@ -25,10 +25,11 @@ const Hero = () => {
       mm.add("(prefers-reduced-motion: no-preference)", () => {
         const q = gsap.utils.selector(ref);
         const heading = q("h1")[0];
+        const useWordSplit = lang === "ar";
         const split = new SplitText(heading, {
-          type: "chars,words",
-          mask: "chars",
-          charsClass: "split-char",
+          type: useWordSplit ? "words" : "chars,words",
+          mask: useWordSplit ? "words" : "chars",
+          ...(useWordSplit ? { wordsClass: "split-word" } : { charsClass: "split-char" }),
         });
 
         gsap.set(root, { autoAlpha: 1 });
@@ -38,8 +39,14 @@ const Hero = () => {
         intro
           .from(q(".cine-eyebrow"), { autoAlpha: 0, y: 16, duration: 0.55 })
           .from(
-            split.chars,
-            { yPercent: 110, autoAlpha: 0, rotateX: -28, duration: 0.75, stagger: 0.016 },
+            useWordSplit ? split.words : split.chars,
+            {
+              yPercent: 110,
+              autoAlpha: 0,
+              rotateX: useWordSplit ? 0 : -28,
+              duration: 0.75,
+              stagger: useWordSplit ? 0.06 : 0.016,
+            },
             "-=0.25"
           )
           .from(q(".hero-desc"), { autoAlpha: 0, y: 22, duration: 0.65 }, "-=0.4")

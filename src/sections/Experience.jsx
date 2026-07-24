@@ -69,7 +69,7 @@ const Experience = () => {
         <SectionHead eyebrow={t.xp.eyebrow} title={t.xp.title} lead={t.xp.lead} />
 
         <Group title={t.xp.groups.pro} items={experience} />
-        <Group title={t.xp.groups.internships} items={internships} />
+        {/* <Group title={t.xp.groups.internships} items={internships} /> */}
         <Group title={t.xp.groups.community} items={communityExperience} />
       </div>
     </section>
