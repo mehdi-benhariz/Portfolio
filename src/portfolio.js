@@ -273,7 +273,7 @@ export const experience = [
       role: "Backend / DevOps Engineer (Consultant)",
       company: "C4SAM",
       companylogo: c4sam,
-      date: "July 2024 – Present",
+      date: "July 2024 – January 2026",
       desc:
         "I am responsible for implementing and maintaining a product for DevSecOps tools integration",
     } ,
