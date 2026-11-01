@@ -212,7 +212,24 @@ a {
 }
 
 .split-mask {
-  overflow: hidden;
+  /* Don't clip the heading box. overflow:hidden slices the first line, and
+     WebKit then paints the silver gradient across the top of that glyph's
+     counter — the H in "Hi" reads as an A. Per-character masks still clip
+     the reveal. */
+  overflow: visible;
+}
+
+/* The gradient lives on each split fragment. Leaving it on the parent as
+   well leaks into the first counter under background-clip: text. */
+.split-mask.cine-silver {
+  background: none;
+}
+
+.split-char-mask,
+.split-word-mask {
+  /* Keep the overflow:clip edge off the outline so the counter stays open. */
+  padding: 0.2em 0.08em 0.14em;
+  margin: -0.2em -0.08em -0.14em;
 }
 
 .split-char,
@@ -221,8 +238,9 @@ a {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
   display: inline-block;
-  will-change: transform, opacity;
 }
 
 .cine-eyebrow {
